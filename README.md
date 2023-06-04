@@ -33,3 +33,10 @@ Là một kỹ sư phần mềm di động tôi nghĩ rằng dưới đây là n
 -- EQ22.1
 -- EQ22.2
 ```
+### Phép giao của 2 mảng
+```dart
+  const languages = ['c++', 'java', 'javascript', 'ruby', 'rust', 'golang'];
+  const search = ['java', 'golang'];
+
+  final result = languages.where((element) => search.contains(element));
+```
